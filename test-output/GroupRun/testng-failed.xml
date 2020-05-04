@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GroupRun]">
+  <test name="GroupRun(failed)">
+    <classes>
+      <class name="com.hrms.testscripts.TC_101">
+        <methods>
+          <include name="TC_101"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC_101 -->
+      <class name="com.hrms.testscripts.TC_102">
+        <methods>
+          <include name="TC_102"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC_102 -->
+    </classes>
+  </test> <!-- GroupRun(failed) -->
+</suite> <!-- Failed suite [GroupRun] -->
